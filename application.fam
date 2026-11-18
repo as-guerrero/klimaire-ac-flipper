@@ -1,0 +1,12 @@
+App(
+    appid="klimaire_remote",
+    name="Klimaire PTAC",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="klimaire_remote_app",
+    requires=["gui", "storage"],
+    stack_size=2 * 1024,
+    fap_category="Infrared",
+    fap_icon="klimaire_10px.png",
+    fap_version="1.0",
+    fap_description="Remote for Klimaire KTHN PTAC units (Midea protocols)",
+)
